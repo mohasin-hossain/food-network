@@ -54,6 +54,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+  width: 100%;
+  padding: 0 5%;
 }
 
 .nav_list {
@@ -223,11 +229,12 @@ h3 {
 
 .customer_intro {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .reviews_list {
   display: flex;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
 }
 
 .review {
