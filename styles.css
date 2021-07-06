@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+/* Header Section Start */
+
+header {
+  height: 100vh;
+}
+
+.header_logo {
+  color: orange;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.header_title {
+  color: #575757;
+  line-height: 5rem;
+  font-weight: 700;
+}
+
+.header_description {
+  font-weight: 500;
+  width: 30rem;
+  color: #828282;
+  margin: 2rem 0;
+}
+
+h1 {
+  font-size: 3.75rem;
+}
+
+nav {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_list {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav_list a {
+  text-decoration: none;
+  margin-left: 5rem;
+  text-transform: uppercase;
+  transition: 0.3s;
+  color: #828282;
+  font-weight: 700;
+}
+
+.nav_list a:hover {
+  color: orange;
+}
+
+.header_full {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_right img {
+  width: 35rem;
+}
+
+.orange_color {
+  color: orange;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  padding: 1.3rem 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #fba24f, #ff1e1e);
+  box-shadow: 0px 2px 30px #dd9b5cd7;
+  border-radius: 6rem;
+  color: white
+}
+
+/* Header Section End */
