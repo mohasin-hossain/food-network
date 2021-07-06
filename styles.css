@@ -88,6 +88,7 @@ nav {
 }
 
 .btn {
+  cursor: pointer;
   outline: none;
   border: none;
   padding: 1.3rem 2.5rem;
@@ -96,41 +97,113 @@ nav {
   background: linear-gradient(90deg, #fba24f, #ff1e1e);
   box-shadow: 0px 2px 30px #dd9b5cd7;
   border-radius: 6rem;
-  color: white
+  color: white;
 }
 
 /* Header Section End */
 
 /* About Me Section Start */
 .about_me_section {
-    background-image: url(images/7.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(images/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h2 {
-    font-size: 2.75rem;
-    color: #828282;
+  font-size: 2.75rem;
+  color: #828282;
 }
 
 .about_me_description {
-    width: 28rem;
-    height: 8rem;
-    font-weight: 500;
-    color: #828282;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    margin: 2rem 0;
+  width: 28rem;
+  height: 8rem;
+  font-weight: 500;
+  color: #828282;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 2rem 0;
 }
 .about_me {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .half_width {
-    width: 50%;
+  width: 50%;
 }
 
 .half_width img {
-    width: 25rem;
+  padding-top: 2rem;
+  width: 25rem;
 }
+/* About Me Section End */
+
+/* My Recipes Section Start */
+.my_recipes_section {
+  margin-top: 3rem;
+}
+
+.my_recipes_about {
+  width: 35rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.my_recipes_about p {
+  color: #828282;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 2rem 0;
+}
+
+.recipes_list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.recipe {
+  margin: 0 2rem;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+}
+
+.recipe img {
+  width: 100%;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: #575757;
+  letter-spacing: 1px;
+}
+
+.recipe  p:first-of-type {
+    font-weight: 700;
+}
+
+.recipe p {
+  line-height: 1.5rem;
+  width: 100%;
+  color: #828282;
+  margin: 0rem 0 1rem 0;
+}
+
+.order_btn {
+  outline: none;
+  border: none;
+  padding: .5rem 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #fba24f, #ff1e1e);
+  box-shadow: 0px 2px 30px #dd9b5cd7;
+  border-radius: 6rem;
+  color: white;
+  cursor: pointer;
+}
+/* My Recipes Section End */
