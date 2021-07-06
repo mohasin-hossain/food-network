@@ -100,3 +100,37 @@ nav {
 }
 
 /* Header Section End */
+
+/* About Me Section Start */
+.about_me_section {
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 2.75rem;
+    color: #828282;
+}
+
+.about_me_description {
+    width: 28rem;
+    height: 8rem;
+    font-weight: 500;
+    color: #828282;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 2rem 0;
+}
+.about_me {
+    display: flex;
+    align-items: center;
+}
+
+.half_width {
+    width: 50%;
+}
+
+.half_width img {
+    width: 25rem;
+}
