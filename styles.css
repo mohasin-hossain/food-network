@@ -69,7 +69,7 @@ nav {
   color: #828282;
   font-weight: 700;
   letter-spacing: 1px;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .nav_list a:hover {
@@ -186,8 +186,8 @@ h3 {
   letter-spacing: 1px;
 }
 
-.recipe  p:first-of-type {
-    font-weight: 700;
+.recipe p:first-of-type {
+  font-weight: 700;
 }
 
 .recipe p {
@@ -200,7 +200,7 @@ h3 {
 .order_btn {
   outline: none;
   border: none;
-  padding: .5rem 3rem;
+  padding: 0.5rem 3rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   background: linear-gradient(90deg, #fba24f, #ff1e1e);
@@ -211,42 +211,128 @@ h3 {
 }
 /* My Recipes Section End */
 
+/* Customers Review Section Start */
+.customer_reviews_section {
+  background-image: url(images/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5rem;
+  margin-top: 5rem;
+}
+
+.customer_intro {
+  text-align: center;
+}
+
+.reviews_list {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.review {
+  margin: 0 2rem;
+}
+
+.review p {
+  font-size: 1.2;
+  font-weight: 500;
+  text-align: justify;
+  margin: 1rem 0;
+}
+
+.customer {
+  display: flex;
+  align-items: center;
+}
+
+.customer img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100vh;
+  margin-right: 2rem;
+}
+
+/* Customers Review Section End */
+
+/* Contact Us Section Start */
+.contact_us_section {
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  color: white;
+}
+
+.contact_us_heading {
+    margin-bottom: 2rem;
+}
+
+.contact_info {
+    padding: 6rem 15rem 6rem 6rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/Project\ Cover1.jpg);
+    background-position: left;
+}
+
+.map {
+  flex: 1;
+}
+
+.contact_info > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+.contact_info > div img {
+    margin-right: 1rem;
+  }
+  
+.contact_info > div > div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.contact_info > div > div span:first-child {
+    margin-bottom: 0.25rem;
+  }
+/* Contact Us Section End */
+
 /* Social Statistics Start */
 .social_statistics_section {
-    margin: 5rem 0;
+  margin: 5rem 0;
 }
 
 .social_wrapper {
-    display: flex;
-    justify-content: space-around;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.24);
-    padding: 2rem;
-    border-radius: 1rem;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.24);
+  padding: 2rem;
+  border-radius: 1rem;
 }
 
 .social {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /* Social Statistics End */
 
 /* Footer Start */
 footer {
-    padding: 4rem;
-    background-color: black;
-    color: #575757;
-    text-align: center;
+  padding: 4rem;
+  background-color: black;
+  color: #575757;
+  text-align: center;
 }
 
 footer p:first-of-type {
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 footer p:last-of-type {
-    color: rgb(189, 184, 184);
+  color: rgb(189, 184, 184);
 }
 /* Footer End */
