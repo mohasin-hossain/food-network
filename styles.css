@@ -25,10 +25,11 @@ header {
 }
 
 .header_logo {
-  color: orange;
+  color: #575757;
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .header_title {
@@ -228,3 +229,23 @@ h3 {
     align-items: center;
 }
 /* Social Statistics End */
+
+/* Footer Start */
+footer {
+    padding: 4rem;
+    background-color: black;
+    color: #575757;
+    text-align: center;
+}
+
+footer p:first-of-type {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+footer p:last-of-type {
+    color: rgb(189, 184, 184);
+}
+/* Footer End */
